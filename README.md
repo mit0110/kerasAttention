@@ -1,4 +1,4 @@
-# Nerual Attention in Keras
+# Neuual Attention in Keras
 
 This repository contains a notebook with some simple prototypes to add
 an attention mechanism to an LSTM for sequence labeling. It is part of a
