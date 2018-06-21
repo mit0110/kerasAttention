@@ -14,10 +14,14 @@ The [original dataset](https://www.kaggle.com/gagandeep16/ner-using-bidirectiona
 * [Full dataset](https://cs.famaf.unc.edu.ar/~mteruel/datasets/tensorflowMeetup/ner.csv) (150M)
 * [Sample dataset](https://cs.famaf.unc.edu.ar/~mteruel/datasets/tensorflowMeetup/ner.sample.csv) (14M)
 
-There are also some trained models you can download, as it takes some time to train in the whole dataset even using a GPU (comming this afternoon):
+There are also some trained models you can download, as it takes some time to train in the whole dataset even using a GPU:
 
-* [Without attention]()
-* [With attention]()
+* [Without attention](https://cs.famaf.unc.edu.ar/~mteruel/datasets/tensorflowMeetup/model_10ep.keras)
+* [With attention - Model 1](https://cs.famaf.unc.edu.ar/~mteruel/datasets/tensorflowMeetup/model_10ep_att_softmax.keras)
+* [With attention - Model 1 - Linear](https://cs.famaf.unc.edu.ar/~mteruel/datasets/tensorflowMeetup/model_10ep_att_linear.keras)
+* [With attention - Model 2](https://cs.famaf.unc.edu.ar/~mteruel/datasets/tensorflowMeetup/model_10ep_att2_softmax.keras)
+* [With attention - Model 2 - Linear](https://cs.famaf.unc.edu.ar/~mteruel/datasets/tensorflowMeetup/model_10ep_att2_linear.keras)
+
 
 ## Requirements
 

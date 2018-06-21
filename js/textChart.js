@@ -113,9 +113,9 @@ TextChart = class TextChartClass {
 
   getOpacityScale() {
     var domainMin = this.words.reduce(
-      (min, p) => Math.min(p.attention, min), this.words[0].attention)
+      (min, p) => Math.min(p.attention, min), this.words[0].attention);
     var domainMax = this.words.reduce(
-      (max, p) => Math.max(p.attention, max), this.words[0].attention)
+      (max, p) => Math.max(p.attention, max), this.words[0].attention);
     return d3.scale.linear().domain([domainMin, domainMax]).range([0, 1]);
   }
 
